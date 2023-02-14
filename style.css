@@ -1,0 +1,63 @@
+* {
+    font-family: 'Bebas Neue', cursive;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+}
+
+.num {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    border:none;
+    justify-content: center;
+    margin: 5px;
+    background-color: #333333;
+    box-shadow: 3px 3px 8px rgb(31, 31, 31);
+}
+.num:hover {
+    cursor:pointer;
+    background-color: #303030;
+}
+
+.add, .sub, .mult, .div {
+    background-color: #244a92;
+}
+.add:hover, .sub:hover, .mult:hover, .div:hover {
+    cursor:pointer;
+    background-color: #1f4283;
+}
+
+input {
+    color: #ffffff;
+    padding: 17px;
+    outline: none;
+    font-size: 30px;
+}
+
+.text {
+    border-radius: 10px;
+    border:none;
+}
+
+.C {
+    color: #ffffff;
+    background-color: #244a92;
+    box-shadow: 3px 3px 8px rgb(31, 31, 31);
+}
+.C:hover {
+    cursor:pointer;
+    background-color: #1f4283;
+}
+
+.main {
+    display: inline-block;
+    background-color: #333333;
+    padding: 20px;
+    border-radius: 25px;
+}
